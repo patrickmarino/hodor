@@ -44,8 +44,9 @@ The file is a copy of the annotated default, so **most lines are commented-out d
 something, uncomment the existing line rather than appending a new key — appending risks a duplicate
 key in a different table, and every TOML section header is already present.
 
-Active settings: `theme.name = "tokyo-night"`, `ui.toast.delivery = "system"` (macOS Notification
-Center), `ui.sound.enabled = false`, `experimental.pane_history = false`, and a `[keys]` block
+Active settings: `theme.name = "terminal"` (inherits the host terminal palette),
+`ui.toast.delivery = "system"` (macOS Notification Center), `ui.sound.enabled = true`,
+`experimental.pane_history = false`, and a `[keys]` block
 that mirrors `~/.tmux.conf` (prefix `ctrl+a`, `hjkl` pane focus, `v`/`s` splits, `ctrl+h`/`ctrl+l`
 tab nav, `r` reload, `shift+HJKL` resize). Each remapped binding carries an inline comment naming the
 tmux line it mirrors — **keep `~/.tmux.conf` and the `[keys]` block in sync when either changes.**
