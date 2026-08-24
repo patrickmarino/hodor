@@ -50,8 +50,9 @@ Active settings: `theme.name = "terminal"` (inherits the host terminal palette),
 that mirrors `~/.tmux.conf` (prefix `ctrl+a`, `hjkl` pane focus, `v`/`s` splits, `ctrl+h`/`ctrl+l`
 tab nav, `r` reload, `shift+HJKL` resize). Each remapped binding carries an inline comment naming the
 tmux line it mirrors — **keep `~/.tmux.conf` and the `[keys]` block in sync when either changes.**
-Two non-default consequences worth knowing: `settings` moved to `prefix+comma` (tmux owns `s`),
-and `resize_mode`/`reload_config` are swapped relative to Herdr defaults.
+Non-default consequences worth knowing: `settings` moved to `prefix+comma` (tmux owns `s`),
+`resize_mode`/`reload_config` are swapped relative to Herdr defaults, and
+`new_workspace`/`workspace_picker` are swapped (`prefix+w` creates, `prefix+shift+n` picks).
 
 Non-obvious points, all documented inline in the file:
 

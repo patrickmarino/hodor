@@ -62,12 +62,14 @@ herdr.dev needs translating. `ctrl+a ?` shows the live bindings and is the autho
 | <kbd>ctrl+a</kbd> <kbd>q</kbd> | detach (everything keeps running) | default |
 | <kbd>ctrl+a</kbd> <kbd>?</kbd> | help | default |
 | <kbd>ctrl+a</kbd> <kbd>x</kbd> / <kbd>z</kbd> | close pane / zoom | default |
-| <kbd>ctrl+a</kbd> <kbd>w</kbd> | workspace picker | default |
+| <kbd>ctrl+a</kbd> <kbd>w</kbd> | new workspace | swapped with picker |
+| <kbd>ctrl+a</kbd> <kbd>shift+N</kbd> | workspace picker | swapped with new workspace |
 | <kbd>ctrl+a</kbd> <kbd>b</kbd> | toggle sidebar | default |
 
-Three deliberate departures from Herdr's defaults, all caused by tmux owning the key:
-`split_horizontal` is `s` rather than `minus`; `settings` moved to `,`; `reload_config` and
-`resize_mode` are swapped.
+Four deliberate departures from Herdr's defaults: `split_horizontal` is `s` rather than `minus`,
+`settings` moved to `,`, and `reload_config`/`resize_mode` are swapped (all because tmux owns the
+key); `new_workspace`/`workspace_picker` are swapped so `w` creates a workspace (the goto picker on
+`tab` covers switching).
 
 ## Other settings
 
