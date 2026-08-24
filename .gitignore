@@ -1,0 +1,16 @@
+# Machine-local runtime state — never portable, never useful in a repo.
+
+# Live IPC sockets
+*.sock
+
+# Runtime logs
+*.log
+
+# Layout state: hardcodes this machine's absolute project paths
+session.json
+
+# Local plugin lockfile
+.plugins.lock
+
+# Timestamped backups made by setup-new-mac.sh
+config.toml.bak.*
