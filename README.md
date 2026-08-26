@@ -77,7 +77,8 @@ key); `new_workspace`/`workspace_picker` are swapped so `w` creates a workspace 
   follow the local iTerm2 profile. This is the one setting that won't look identical across
   machines; set a named theme (`tokyo-night`, `gruvbox`, `catppuccin`) for that.
 - **Notifications** delivered to macOS Notification Center, so agent `blocked`/`done` reaches you
-  when the terminal isn't visible. Sound enabled for background workspaces.
+  when the terminal isn't visible. Sound enabled for background workspaces, using the custom mp3 in
+  `sounds/` for both done and needs-attention events.
 
 ## Daily commands
 
